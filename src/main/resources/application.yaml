@@ -1,0 +1,13 @@
+bot:
+  name: GumTelegramBot
+  token: 1205026468:AAHZK3TXIDYonqomK-6r7yE39ISzydaSnUc
+spring:
+  datasource:
+    url: jdbc:postgresql://ec2-54-246-87-132.eu-west-1.compute.amazonaws.com:5432/d6hvmf56r4iajh?user=zlrnctfecqbggx&password=997edc9dbf22f937e0bf379efe94b093ffd14cf616ccf735cb52ed84de0af1b9
+    driver-class-name: org.postgresql.Driver
+    initialization-mode: never
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
